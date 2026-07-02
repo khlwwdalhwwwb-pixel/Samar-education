@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>موسوعة سمر النحوية</title>
+
+    <meta name="description"
+        content="موسوعة النحو العربي للأستاذة سمر رفعت محمد">
+
+    <meta name="keywords"
+        content="النحو، اللغة العربية، سمر رفعت محمد، تعليم، إعراب">
+
+    <meta name="author"
+        content="KAREZMATIK">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+<!-- شاشة البداية -->
+
+<div id="loader">
+
+<div class="loader-content">
+
+<img src="https://i.postimg.cc/1XYDTTYR/IMG-20260702-034825.webp" alt="Logo">
+
+<h2>موسوعة سمر النحوية</h2>
+
+<p>جاري تحميل المحتوى...</p>
+
+<div class="loading-bar">
+
+<span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- نهاية شاشة البداية -->
+
+
+<!-- زر العودة للأعلى -->
+
+<button id="topBtn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- نهاية الزر -->
+
+
+<!-- Navbar -->
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+<img src="https://i.postimg.cc/1XYDTTYR/IMG-20260702-034825.webp">
+
+<h2>أ.سمر رفعت</h2>
+
+</div>
+
+<ul>
+
+<li><a href="#">الرئيسية</a></li>
+
+<li><a href="#lessons">الدروس</a></li>
+
+<li><a href="#about">عن المعلمة</a></li>
+
+<li><a href="#contact">تواصل</a></li>
+
+</ul>
+
+<div class="menu">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- نهاية Navbar -->
+
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>
+
+تعلم النحو بأسلوب مختلف
+
+</h1>
+
+<p>
+
+مرحبًا بك في موسوعة
+
+الأستاذة
+
+<b>سمر رفعت محمد</b>
+
+لتعليم اللغة العربية.
+
+</p>
+
+  <div class="hero-quote">
+    <i class="fa-solid fa-quote-right"></i>
+    <span>كن متميزًا في مكانٍ عادي، ولا تكن عاديًا في مكانٍ متميز.</span>
+</div>
+
+<div class="hero-buttons">
+
+<a href="#lessons" class="btn">
+
+ابدأ التعلم
+
+</a>
+
+<a href="#about" class="btn2">
+
+تعرف علينا
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- نهاية Hero -->
+
+
+<!-- مربع البحث -->
+
+<section class="search">
+
+<h2>
+
+ابحث عن أي قاعدة نحوية
+
+</h2>
+
+<input
+type="text"
+id="searchBox"
+placeholder="اكتب اسم الدرس...">
+
+</section>
+<!-- ===========================
+     بداية قسم الدروس
+=========================== -->
+
+<section class="lessons" id="lessons">
+
+    <div class="section-title">
+
+        <h2>أقسام موسوعة النحو</h2>
+
+        <p>
+            اختر أي درس لتبدأ رحلتك في تعلم اللغة العربية.
+        </p>
+
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <i class="fa-solid fa-book-open"></i>
+            <h3>المبتدأ والخبر</h3>
+            <p>شرح القاعدة مع الأمثلة والإعراب.</p>
+            <button class="openLesson" data-lesson="mobtada">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-pen"></i>
+            <h3>كان وأخواتها</h3>
+            <p>شرح مبسط مع تدريبات.</p>
+            <button class="openLesson" data-lesson="kana">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>إن وأخواتها</h3>
+            <p>تعلم بطريقة سهلة.</p>
+            <button class="openLesson" data-lesson="inna">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-pencil"></i>
+            <h3>الفاعل</h3>
+            <p>تعريف وأمثلة وإعراب.</p>
+            <button class="openLesson" data-lesson="fael">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-feather"></i>
+            <h3>نائب الفاعل</h3>
+            <p>شرح القاعدة بالتفصيل.</p>
+            <button class="openLesson" data-lesson="naeb">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-book"></i>
+            <h3>المفعول به</h3>
+            <p>تعلم الإعراب بسهولة.</p>
+            <button class="openLesson" data-lesson="mafool">
+    ابدأ الآن
+</button>
+        </div>
+     
+        <div class="card">
+            <i class="fa-solid fa-layer-group"></i>
+            <h3>الحال</h3>
+            <p>الشرح مع التدريبات.</p>
+            <button class="openLesson" data-lesson="hal">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-star"></i>
+            <h3>التمييز</h3>
+            <p>شرح مبسط وأمثلة.</p>
+            <button class="openLesson" data-lesson="tamyeez">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-file-lines"></i>
+            <h3>النعت</h3>
+            <p>أهم قواعد النعت.</p>
+            <button class="openLesson" data-lesson="naat">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-circle-check"></i>
+            <h3>التوكيد</h3>
+            <p>أمثلة وإعراب.</p>
+            <button class="openLesson" data-lesson="tawked">
+    ابدأ الآن
+</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-diagram-project"></i>
+            <h3>البدل</h3>
+            <p>شرح كامل للبدل.</p>
+<button class="openLesson" data-lesson="badal">
+    ابدأ الآن
+</button>
+        </div>
+      
+    <div class="card">
+        <i class="fa-solid fa-microphone"></i>
+        <h3>المنادى</h3>
+        <p>تعلم أحكام النداء.</p>
+        <button class="openLesson" data-lesson="monada">
+            ابدأ الآن
+        </button>
+    </div>
+
+      <div class="card">
+    <i class="fa-solid fa-list"></i>
+    <h3>المفعول المطلق</h3>
+    <p>شرح القاعدة مع الأمثلة والإعراب.</p>
+    <button class="openLesson" data-lesson="mafoolMutlaq">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-bullseye"></i>
+    <h3>المفعول لأجله</h3>
+    <p>تعرف على المفعول لأجله بسهولة.</p>
+    <button class="openLesson" data-lesson="mafoolAjlih">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-clock"></i>
+    <h3>المفعول فيه (الظرف)</h3>
+    <p>ظرف الزمان وظرف المكان.</p>
+    <button class="openLesson" data-lesson="zarf">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-people-arrows"></i>
+    <h3>المفعول معه</h3>
+    <p>شرح المفعول معه وأمثلته.</p>
+    <button class="openLesson" data-lesson="mafoolMaah">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-ban"></i>
+    <h3>الاستثناء</h3>
+    <p>أدوات الاستثناء وأحكامها.</p>
+    <button class="openLesson" data-lesson="estethna">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-minus-circle"></i>
+    <h3>المستثنى</h3>
+    <p>إعراب المستثنى.</p>
+    <button class="openLesson" data-lesson="mostathna">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-font"></i>
+    <h3>الاسم المقصور</h3>
+    <p>تعريف وأمثلة.</p>
+    <button class="openLesson" data-lesson="maqsoor">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-font"></i>
+    <h3>الاسم المنقوص</h3>
+    <p>شرح الاسم المنقوص.</p>
+    <button class="openLesson" data-lesson="manqoos">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-font"></i>
+    <h3>الاسم الممدود</h3>
+    <p>شرح الاسم الممدود.</p>
+    <button class="openLesson" data-lesson="mamdood">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-xmark"></i>
+    <h3>الممنوع من الصرف</h3>
+    <p>أحكام الممنوع من الصرف.</p>
+    <button class="openLesson" data-lesson="mamnoo">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-calculator"></i>
+    <h3>العدد والمعدود</h3>
+    <p>قواعد العدد والمعدود.</p>
+    <button class="openLesson" data-lesson="adad">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-link"></i>
+    <h3>العطف</h3>
+    <p>شرح حروف العطف.</p>
+    <button class="openLesson" data-lesson="atf">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-bullhorn"></i>
+    <h3>أسلوب النداء</h3>
+    <p>شرح أسلوب النداء.</p>
+    <button class="openLesson" data-lesson="nedaa">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-circle-minus"></i>
+    <h3>أسلوب الاستثناء</h3>
+    <p>شرح أسلوب الاستثناء.</p>
+    <button class="openLesson" data-lesson="styleEstethna">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-code-branch"></i>
+    <h3>أسلوب الشرط</h3>
+    <p>أدوات الشرط وأمثلتها.</p>
+    <button class="openLesson" data-lesson="shart">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-face-smile"></i>
+    <h3>أسلوب التعجب</h3>
+    <p>صيغ التعجب.</p>
+    <button class="openLesson" data-lesson="taagob">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-thumbs-up"></i>
+    <h3>أسلوب المدح والذم</h3>
+    <p>نِعم وبئس.</p>
+    <button class="openLesson" data-lesson="madh">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-user-check"></i>
+    <h3>أسلوب الاختصاص</h3>
+    <p>شرح أسلوب الاختصاص.</p>
+    <button class="openLesson" data-lesson="ekhtesas">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-scissors"></i>
+    <h3>الترخيم</h3>
+    <p>أحكام الترخيم.</p>
+    <button class="openLesson" data-lesson="tarkheem">ابدأ الآن</button>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    <h3>الإغراء والتحذير</h3>
+    <p>شرح الإغراء والتحذير.</p>
+    <button class="openLesson" data-lesson="eghraa">ابدأ الآن</button>
+</div>
+</div>
+
+</section>
+  <section id="lessonContent">
+
+<div class="lesson-box">
+
+<h2 id="lessonTitle">
+اختر أي درس
+</h2>
+
+<div id="lessonBody">
+
+<p>
+
+اضغط على زر
+"ابدأ الآن"
+ليظهر شرح الدرس هنا.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+      نهاية قسم الدروس
+=========================== -->
+  <!-- ===========================
+        عن المعلمة
+=========================== -->
+
+<section class="about" id="about">
+
+    <div class="about-image">
+
+        <img src="https://i.postimg.cc/1XYDTTYR/IMG-20260702-034825.webp" alt="سمر رفعت محمد">
+
+    </div>
+
+    <div class="about-content">
+
+        <span>نبذة</span>
+
+        <h2>الأستاذة سمر رفعت محمد</h2>
+
+        <p>
+
+            معلمة لغة عربية تهدف إلى تبسيط النحو العربي
+            وتقديم المحتوى بصورة حديثة وسهلة تساعد
+            الطلاب على الفهم والإتقان.
+
+        </p>
+
+        <p>
+
+            هذه الموسوعة التعليمية صُممت لتكون مرجعًا
+            متكاملًا للطلاب ولكل محب
+            للغة العربية.
+
+        </p>
+
+      <div class="about-quote">
+    <i class="fa-solid fa-lightbulb"></i>
+    <p>
+        لا يمكنك الوصول إلى هدفك إذا اخترت أن تقف مكانك بلا حراك.
+    </p>
+</div>
+      
+        <a href="#contact" class="about-btn">
+
+            تواصل معنا
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+        الإحصائيات
+=========================== -->
+
+<section class="stats">
+
+    <div class="stat">
+
+        <i class="fa-solid fa-book-open"></i>
+
+        <h2 data-target="25">0</h2>
+
+        <p>درس نحوي</p>
+
+    </div>
+
+    <div class="stat">
+
+        <i class="fa-solid fa-pen"></i>
+
+        <h2 data-target="200">0</h2>
+
+        <p>مثال معرب</p>
+
+    </div>
+
+    <div class="stat">
+
+        <i class="fa-solid fa-circle-question"></i>
+
+        <h2 data-target="500">0</h2>
+
+        <p>سؤال تدريبي</p>
+
+    </div>
+
+    <div class="stat">
+
+        <i class="fa-solid fa-user-graduate"></i>
+
+        <h2 data-target="1000">0</h2>
+
+        <p>طالب مستفيد بإذن الله</p>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+        مميزات الموسوعة
+=========================== -->
+
+<section class="features">
+
+    <h2>لماذا هذه الموسوعة ؟</h2>
+
+    <div class="feature-container">
+
+        <div class="feature">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            <h3>تعلم سريع</h3>
+
+            <p>
+
+                شرح مختصر وواضح مع أمثلة كثيرة.
+
+            </p>
+
+        </div>
+
+        <div class="feature">
+
+            <i class="fa-solid fa-brain"></i>
+
+            <h3>سهولة الفهم</h3>
+
+            <p>
+
+                تبسيط جميع قواعد النحو بأسلوب سهل.
+
+            </p>
+
+        </div>
+
+        <div class="feature">
+
+            <i class="fa-solid fa-laptop-code"></i>
+
+            <h3>تعلم تفاعلي</h3>
+
+            <p>
+
+                تصميم حديث مع مؤثرات تساعد على التركيز.
+
+            </p>
+
+        </div>
+
+        <div class="feature">
+
+            <i class="fa-solid fa-award"></i>
+
+            <h3>اختبارات</h3>
+
+            <p>
+
+                اختبر نفسك بعد كل درس.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+      اقتباس عربي
+=========================== -->
+
+<section class="quote">
+
+    <i class="fa-solid fa-quote-right"></i>
+
+    <h2>
+
+        إنَّ اللغةَ العربيةَ ليستْ لغةً فحسب،
+        بل هي هويةٌ وحضارةٌ ورسالة.
+
+    </h2>
+
+</section>
+<!-- ===========================
+        تواصل معنا
+=========================== -->
+
+<section class="contact" id="contact">
+
+    <h2>تواصل مع الأستاذة</h2>
+
+    <p>
+        يمكنك متابعة المحتوى التعليمي عبر منصات التواصل الاجتماعي.
+    </p>
+
+    <div class="social-links">
+
+        <a href="https://www.facebook.com/profile.php?id=61589986090672" target="_blank" class="facebook">
+            <i class="fab fa-facebook-f"></i>
+            Facebook
+        </a>
+
+        <a href="https://vm.tiktok.com/ZS96tLhPMP5np-dePOI/" target="_blank" class="tiktok">
+            <i class="fab fa-tiktok"></i>
+            TikTok
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+        رسالة شكر
+=========================== -->
+
+<section class="thanks">
+
+    <h2>رسالة شكر</h2>
+
+    <p>
+
+        إلى أستاذتي الفاضلة
+        <strong>سمر رفعت محمد</strong>
+
+        <br><br>
+
+        شكرًا لكِ على كل حرفٍ علمتِنا إياه،
+        وعلى كل جهدٍ بذلتِه في تبسيط اللغة العربية
+        وغرس حبها في نفوس طلابك.
+
+        <br><br>
+
+        هذه الموسوعة ليست سوى هدية متواضعة
+        تعبيرًا عن التقدير والاحترام لشخصك الكريم،
+        وأسأل الله أن يبارك في علمك،
+        وأن يجعل كل ما تقدمينه في ميزان حسناتك.
+
+        <br><br>
+
+        🌹 مع خالص الشكر والامتنان 🌹
+
+    </p>
+
+</section>
+
+<!-- ===========================
+        Footer
+=========================== -->
+
+<footer>
+
+    <div class="footer-logo">
+
+        <img src="https://i.postimg.cc/1XYDTTYR/IMG-20260702-034825.webp" alt="Logo">
+
+        <h2>موسوعة سمر النحوية</h2>
+
+    </div>
+
+    <p>
+
+        جميع الحقوق محفوظة © 2026
+
+    </p>
+
+    <div class="designer">
+
+        <h3>
+
+            تصميم :
+            ♛ 𝑲𝑨𝑹𝑬𝒁𝑴𝑨𝑻𝑰𝑲 ♛
+
+        </h3>
+
+        <p>
+
+            رقم الهاتف :
+            01140831263
+
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+  </html>
